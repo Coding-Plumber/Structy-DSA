@@ -21,6 +21,10 @@ def intersection(a, b):
     return result
 
 
+# Time: O(n*m)
+# Space: O(n + m)
+
+
 # This fails the large test cases however which was predicte with a > 2000 ms execution time out
 
 # If we change it to a set thought it passes
@@ -36,6 +40,10 @@ def intersection_set(a, b):
     return result
 
 
+# Time: O(n + m)
+# Space: O(n+m)
+
+
 # Even though this is very similar and uses a set instead of an array, because sets use constant look up time its a LOT faster
 
 
@@ -44,6 +52,9 @@ def intersection_one_liner(a, b):
     return list(set(a) & set(b))
 
 
+# Time: O(n + m)
+# Space: O(n + m)
+
 # When using a '&' with sets it performs a set intersection. It returns a new set containing elements that are common to both sets.
 
 
@@ -51,6 +62,10 @@ def intersection_one_liner(a, b):
 def intersection_list_comprehension(a, b):
     set_a = set(a)
     return [item for item in b if item in set_a]
+
+
+# Time: O(n + m)
+# Space: O(n + m)
 
 
 # This reads like this -
