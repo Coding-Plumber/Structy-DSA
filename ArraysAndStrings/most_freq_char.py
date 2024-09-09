@@ -58,3 +58,5 @@ def most_frequent_char_refcator(s):
 
 
 # Notes -
+
+# Alternative leetcode question https://leetcode.com/problems/first-unique-character-in-a-string/description/

@@ -19,10 +19,10 @@ def pair_product(numbers, target_product):
 
         num_store[num] = i
 
-        print(num_store)
-
 
 # Time: O(n)
 # Space: O(n)
 
 # Notes - Similar to pair sum except we have to divide to get the complement
+
+# Another version of leetcode two sum - https://leetcode.com/problems/two-sum/description/

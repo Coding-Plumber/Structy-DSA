@@ -32,3 +32,5 @@ def pair_sum(numbers, target_sum):
 # Space: O(n)
 
 # Notes - This one didn't need to be refactored and was the optimal solution
+
+# Alternative leetcode question - https://leetcode.com/problems/two-sum/description/
