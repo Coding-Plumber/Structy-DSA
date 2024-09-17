@@ -61,8 +61,8 @@ def reverse_list(head):
 def reverse_list_rec(head, prev=None):
     if head is None:
         return prev
-    next = head.next
-    head.next = prev
+    next = head.next  # get next node
+    head.next = prev  # set prev node
     return reverse_list_rec(next, head)
 
 

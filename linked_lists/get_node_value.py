@@ -39,16 +39,13 @@ def get_node_value(head, index):
 
 
 def get_node_value_rec(head, index):
-    return _get_node_value(head, index, 0)
-
-
-def _get_node_value(head, index, count):
-    if head == None:
+    if head is None:
         return None
-    elif index == count:
+
+    if index == 0:
         return head.val
 
-    return _get_node_value(head.next, index, count + 1)
+    return get_node_value_rec(head.next, index - 1)
 
 
 # Time: O(n)
