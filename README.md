@@ -9,9 +9,9 @@ My main goals of this repo are:
 - To help improve problem solving skills and coding practices
 - For fun, i actually enjoy doing these
 
-  # Topics Covered
+# Topics Covered
 
-  The areas covered in structy are the following
+The areas covered in structy are the following
 
 - Array and String manipulation
 - Beginner Recursion
