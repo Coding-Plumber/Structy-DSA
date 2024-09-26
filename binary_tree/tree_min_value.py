@@ -25,6 +25,10 @@ def tree_min_value_recursive(root):
     return min(root.val, tree_left, tree_right)
 
 
+# Time: O(n)
+# Space: O(n)
+
+
 # BFS Method
 
 from collections import deque
@@ -47,3 +51,7 @@ def tree_min_value(root):
             queue.append(node.right)
 
     return lowest_val
+
+
+# Time: O(n)
+# Space: O(n)
