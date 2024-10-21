@@ -13,15 +13,15 @@ My main goals of this repo are:
 
 The areas covered in structy are the following
 
-- Array and String manipulation
-- Beginner Recursion
-- Linked Lists
-- Binary Trees
-- Graph algorithms
-- Dynamic Programming
-- Stack implementations
-- Exhaustive Recursion techniques
-- Mixed Recall (various combined topics)
+- [x] Array and String manipulation
+- [x] Beginner Recursion
+- [x] Linked Lists
+- [x] Binary Trees
+- [x] Graph algorithms
+- [ ] Dynamic Programming
+- [ ] Stack implementations
+- [ ] Exhaustive Recursion techniques
+- [ ] Mixed Recall (various combined topics)
 
 # Rescources used 
 
