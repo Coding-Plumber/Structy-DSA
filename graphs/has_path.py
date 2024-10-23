@@ -18,6 +18,12 @@ def has_path_recursive(graph, src, dst):
     return False
 
 
+# n = nodes
+# e = edges
+# Time: O(e)
+# Space: O(n)
+
+
 # BFS
 from collections import deque
 
@@ -35,3 +41,9 @@ def has_path(graph, src, dst):
             queue.append(val)
 
     return False
+
+
+# n = nodes
+# e = edges
+# Time: O(e)
+# Space: O(n)
